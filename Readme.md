@@ -99,6 +99,7 @@ Input	Output Steps
 3 2 1	sa → rra
 5 1 4 2 3	pb → pb → sa → ...
 100 random nums	~700–900 steps (goal < 1500)
+
 🧠 Algorithm Overview
 For small stacks:
 
@@ -127,9 +128,9 @@ Size of Input	Target Max Operations
 
 My implementation reaches:
 
-    ~500–700 ops for 100 elements
+    ~1000/1054 ops for 100 elements
 
-    ~4000–5200 ops for 500 elements (average)
+    ~6000/6500 ops for 500 elements (average)
 
 You can validate using:
 
